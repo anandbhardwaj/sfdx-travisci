@@ -16,4 +16,9 @@ private class mytest {
         myclass demo = new myclass();
         System.assertEquals(demo.getAppVersion(), '1.0.0');
     }
+    @isTest
+    static void myUnitTest4() {
+        myclass demo = new myclass();
+        System.assertEquals(demo.getAppVersion(), '1.0.0');
+    }
 }
